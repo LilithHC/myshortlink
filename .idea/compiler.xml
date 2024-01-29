@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myshortlink" />
+        <module name="shortlink-gateway" />
+        <module name="shortlink-admin" />
+        <module name="shortlink-project" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="admin" target="1.8" />
+      <module name="project" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
